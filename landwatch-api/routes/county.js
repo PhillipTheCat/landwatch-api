@@ -5,8 +5,8 @@ var mysql = require('mysql');
 
 var con = mysql.createConnection({
   host: "localhost",
-  user: //fill in ,
-  password: //fill in your pw 
+  user: "root" ,
+  password: "newpass"
 });
 
 function getByCounty(countyName) {
